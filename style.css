@@ -35,7 +35,7 @@ ul.menu {
     gap: 20px;
 }
 
-ul.menu l a {
+ul.menu li a {
     color: white;
     text-decoration: none;
 }
