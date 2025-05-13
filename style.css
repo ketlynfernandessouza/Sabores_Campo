@@ -1,71 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fff8f0;
+  color: #4a3b2b;
 }
 
-nav { 
-    background-color: #85018a;  
-    padding: 10px 20;
-    position: relative;
-}
- 
-menu-toggle{ 
-display: none;
+header {
+  background-color: #a67244;
+  color: white;
+  padding: 2rem;
+  text-align: center;
 }
 
-.hamburguer {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  width: 30px;
-  height: 25px;
-  justify-content: space-between;
+main {
+  padding: 2rem;
 }
 
-.hamburguer span {
-    height: 4px;
-    background-color: #fffeff;
-    border-radius: 2px;
+section {
+  margin-bottom: 3rem;
 }
 
-ul.menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+h2 {
+  color: #7c4d28;
 }
 
-ul.menu li a {
-    color: white;
-    text-decoration: none;
-} 
-
-h1{ 
-  align-items: center;      
-   text-align: center;
-   color: aliceblue;
-}
- /*Responsivo*/
- @media(max-width:768PX)
- .hamburguer{ 
-  display:flex;
+ul {
+  list-style-type: square;
+  padding-left: 20px;
 }
 
-ul.menu{ 
-   display: none;
-   flex-direction: column;
-   background: #333;
-   position: absolute;
-   top: 60px;
-   left:0;
-   width: 100%;
- }
-   .menu-toggle:checked
- +.hamburguer+ul.menu{ 
-     display: flex;
- }
- 
+.fotos {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 
+.fotos img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
 
-
+footer {
+  background-color: #a67244;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
 
