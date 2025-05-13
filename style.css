@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -6,10 +7,24 @@ body {
 }
 
 header {
-  background-color: #6d4929;
+  background-color: #a67244;
   color: white;
   padding: 2rem;
   text-align: center;
+}
+
+header button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #a67244;
+  border: 2px solid #a67244;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #a67244;
+  color: white;
 }
 
 main {
@@ -39,7 +54,7 @@ ul {
   width: 100%;
   max-width: 250px;
   border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
 
 footer {
@@ -49,3 +64,29 @@ footer {
   padding: 1rem;
 }
 
+/* 🌙 Modo Noturno */
+.modo-noturno {
+  background-color: #1a1a1a;
+  color: #f0eada;
+}
+
+.modo-noturno header {
+  background-color: #333;
+  color: #f0eada;
+}
+
+.modo-noturno header button {
+  background-color: #f0eada;
+  color: #333;
+  border-color: #f0eada;
+}
+
+.modo-noturno header button:hover {
+  background-color: #333;
+  color: #f0eada;
+}
+
+.modo-noturno footer {
+  background-color: #333;
+  color: #f0eada;
+}

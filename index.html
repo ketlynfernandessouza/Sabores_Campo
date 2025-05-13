@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sabores do Campo</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>Sabores do Campo</h1>
     <p>Tradições que Alimentam</p>
+    <button onclick="alternarModo()">🌙 Alternar Modo Noturno</button>
   </header>
 
   <main>
@@ -49,7 +50,13 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Sabores do Campo - Produzido por ketlyn Apaixonada pela Roça <3 </p>
+    <p>&copy; 2025 Sabores do Campo - Produzido por Ketlyn apaixonada pela Roça</p>
   </footer>
+
+  <script>
+    function alternarModo() {
+      document.body.classList.toggle('modo-noturno');
+    }
+  </script>
 </body>
 </html>
