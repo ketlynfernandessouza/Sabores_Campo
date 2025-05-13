@@ -38,8 +38,33 @@ ul.menu {
 ul.menu li a {
     color: white;
     text-decoration: none;
+} 
+
+h1{ 
+  align-items: center;      
+   text-align: center;
+   color: aliceblue;
+}
+ /*Responsivo*/
+ @media(max-width:768PX)
+ .hamburguer{ 
+  display:flex;
 }
 
+ul.menu{ 
+   display: none;
+   flex-direction: column;
+   background: #333;
+   position: absolute;
+   top: 60px;
+   left:0;
+   width: 100%;
+ }
+   .menu-toggle:checked
+ +.hamburguer+ul.menu{ 
+     display: flex;
+ }
+ 
 
 
 
