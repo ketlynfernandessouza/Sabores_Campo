@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #a67244;
+  background-color: #6d411b;
   color: white;
   padding: 2rem;
   text-align: center;
@@ -23,7 +23,7 @@ header button {
 }
 
 header button:hover {
-  background-color: #c97832;
+  background-color: #3f2c1c;
   color: white;
 }
 
