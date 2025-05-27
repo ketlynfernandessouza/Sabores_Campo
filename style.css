@@ -12,6 +12,7 @@ header {
   padding: 2rem;
   text-align: center;
   position: fixed;
+  bottom: 0px;
 }
 
 header button {
